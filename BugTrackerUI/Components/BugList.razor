@@ -2,12 +2,14 @@
 <table>
     @foreach (var bug in Bugs)
     {
-        <tr>
-            <th>@bug.Id</th>
-            <th>@bug.Title</th>
-            <th>@bug.Description</th>
-            <th>@bug.Priority</th>
-        </tr>
+        <thead>
+            <tr>
+                <th>@bug.Id</th>
+                <th>@bug.Title</th>
+                <th>@bug.Description</th>
+                <th>@bug.Priority</th>
+            </tr>
+        </thead>
     }
 </table>
 
