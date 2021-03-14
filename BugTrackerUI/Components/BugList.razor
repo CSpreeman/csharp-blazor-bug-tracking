@@ -1,5 +1,5 @@
 ﻿<h3>All Bugs</h3>
-<thead>
+<table>
     @foreach (var bug in Bugs)
     {
         <tr>
@@ -9,7 +9,7 @@
             <th>@bug.Priority</th>
         </tr>
     }
-</thead>
+</table>
 
 @code {
     [Inject]
